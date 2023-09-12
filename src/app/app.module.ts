@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './src/app/components/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
+import { LearnComponent } from './src/app/components/learn/learn.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    LearnComponent
   ],
   imports: [
     BrowserModule,
