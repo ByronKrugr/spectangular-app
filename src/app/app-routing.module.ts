@@ -1,12 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './src/app/components/home/home.component';
+import { LearnComponent } from './src/app/components/learn/learn.component';
 
 const routes: Routes = [
   {
     path: 'home',
     pathMatch: 'full',
     component: HomeComponent
+  },
+  {
+    path: 'learn',
+    pathMatch: 'full',
+    component: LearnComponent
   },
   {
     path: '**',
